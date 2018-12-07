@@ -2,7 +2,7 @@ html {
   background-color: #c9b5ab;
   font-size: 1.5rem;
   line-height: 1.5;
-  font-family: PT Sans
+  font-family: "PT Sans", sans-serif;
 }
 
 .wrapper {
