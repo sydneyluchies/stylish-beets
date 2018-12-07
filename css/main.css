@@ -1,12 +1,19 @@
 html {
   background-color: #c9b5ab;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   line-height: 1.5;
   font-family: "PT Sans", sans-serif;
 }
 
-.wrapper {
+body {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.wrapper li {
   font-weight: normal;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .div {
@@ -14,5 +21,59 @@ html {
 }
 
 dl dt {
-  font-weight: bold
+  font-weight: bold;
+}
+
+header h1 {
+  font-size: 1.125rem;
+  color: #3f1622;
+}
+
+header ol {
+  list-style-type: none;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: none;
+}
+
+.intro {
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+  font-size: .9rem;
+}
+
+main {
+  font-size: 1rem;
+}
+
+.intro:first-child {
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "PT Sans", sans-serif;
+}
+
+.intro nav {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+blockquote {
+  font-style: italic;
+  font-weight: normal;
+  font-size: .8rem;
+  margin-top: 0;
+  font-family: "PT Serif", serif;
 }
